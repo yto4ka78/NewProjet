@@ -1,0 +1,44 @@
+$primary: black;
+$dark: #191919;
+$span: #FAC63B;
+$p: margin 0;
+
+$font-family-sans-serif: "Indie Flower", sans-serif !default;
+$font-family-serif: "Montserrat", serif !default;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.footer {
+    padding: 113px 0;
+    background: #191919;
+    position: relative;
+}
+
+.footDiv {
+    width: 412px;
+    height: 242px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.6);
+    margin-left: 10%;
+    padding: 12px 66px 16px 69px;
+}
+
+.footText {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.footWrap {
+    margin-bottom: 0px;
+}
+
+.p {
+    margin: 0;
+  }
